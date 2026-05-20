@@ -10,8 +10,9 @@ while True:
     if opcao == "1":
         nome = input("Digite o nome: ")
         idade = input("Digite a idade: ")
-        
+
         notas = []
+
         for i in range(3):
             nota = float(input(f"Digite a nota {i+1}: "))
             notas.append(nota)
@@ -23,15 +24,18 @@ while True:
         print("Aluno cadastrado!")
 
     elif opcao == "2":
+
         if aluno:
             print("\n--- Dados do Aluno ---")
             print("Nome:", aluno["nome"])
             print("Idade:", aluno["idade"])
             print("Notas:", aluno["notas"])
+
         else:
             print("Nenhum aluno cadastrado!")
 
     elif opcao == "3":
+        print("Programa encerrado!")
         break
 
     else:
