@@ -1,11 +1,11 @@
-def maior_menor(lista):
-    maior = lista[0]
-    menor = lista[0]
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
 
-    for num in lista:
-        if num > maior:
-            maior = num
-        if num < menor:
-            menor = num
+if num1 > num2:
+    print(num1, "é o maior número")
 
-    return maior, menor
+elif num2 > num1:
+    print(num2, "é o maior número")
+
+else:
+    print("Os números são iguais")

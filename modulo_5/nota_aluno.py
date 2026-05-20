@@ -1,12 +1,18 @@
-nota = calcular_media()
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+nota3 = float(input("Digite a terceira nota: "))
 
-if nota >= 90:
+media = (nota1 + nota2 + nota3) / 3
+
+if media >= 9:
     print("Aprovado (Excelente)")
-elif nota >= 80:
+elif media >= 8:
     print("Aprovado (Muito bom)")
-elif nota >= 70:
+elif media >= 7:
     print("Aprovado")
-elif nota >= 60:
+elif media >= 6:
     print("Recuperação")
+elif media >= 5:
+    print("Recuperação")        
 else:
     print("Reprovado")
