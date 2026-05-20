@@ -4,10 +4,7 @@ num_dois = input('Digite o segundo número: ')
 operacao = input('Escolha a operação: 1-> +, 2-> -, 3-> *, 4-> /')
 
 
-# result = int(num_um) / int(num_dois)  #1 divisão
-# result = int(num_um) * int(num_dois)  #2 multiplicação
-# result = int(num_um) + int(num_dois)  #3 soma
-# result = int(num_um) - int(num_dois)  #4 subtração
+
 
 if operacao == '1':
     result = int(num_um) + int(num_dois) 
